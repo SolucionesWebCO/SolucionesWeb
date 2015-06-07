@@ -5,6 +5,10 @@ bgimg: assets/img/slide-1.jpg
 
 bannertitle: CONTACT
 bannercaption: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget tincidunt odio. Nunc maximus malesuada nunc vitae accumsan. Aliquam condimentum laoreet dui. Phasellus est mi, finibus at magna in, venenatis pharetra massa. In hac habitasse platea dictumst.
+
+address: Calle 23 14-51 Of.201
+phone: +57 301 218 4232
+email: info@solucionesweb.ml
 ---
     <div class="site-banner">
 	<div class="banner-image">
@@ -37,18 +41,18 @@ bannercaption: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
             <div class="row">
                 <div class="col-md-4 with-icon">
                     <i class="fa fa-map-marker"></i>
-                    <h3 class="font-w700">Address</h3>
-                    <p>2st Floor Road London SE1 7AA</p>
+                    <h3 class="font-w700">Direccion:</h3>
+                    <p>{{ page.address }}</p>
                 </div>
                 <div class="col-md-4 with-icon">
                     <i class="fa fa-phone"></i>
-                    <h3 class="font-w700">Phone</h3>
-                    <p>+20 7702 1377</p>
+                    <h3 class="font-w700">Telefono</h3>
+                    <p>{{ page.phone }}</p>
                 </div>
                 <div class="col-md-4 with-icon">
                     <i class="fa fa-paper-plane-o"></i>
                     <h3 class="font-w700">E-Mail</h3>
-                    <p><a href="mailto:info@corpoteratechnology.com">info@corpoteratechnology.com</a></p>
+                    <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
                 </div>
             </div>
         </section>
@@ -58,32 +62,28 @@ bannercaption: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
         <section class="site-block white" id="section-contact">
             <div class="row large">
                 <div class="col-md-4 col-sm-6">
-                    <h3 class="font-w700 margin-b40">GET IN TOUCH</h3>
+                    <h3 class="font-w700 margin-b40">CONTACTENOS</h3>
                     <div class="data-form">
                         <form action="http://formspree.io/info@solucionesweb.ml" id="contact-form" method="post">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <label>Name</label>
-                                    <input type="text" id="form-name" name="form-name" placeholder="Enter your name">
+                                    <label>Nombre</label>
+                                    <input type="text" id="form-name" name="form-name" placeholder="Su nombre">
                                 </div>
                                 <div class="col-md-12">
-                                    <label>Surname</label>
-                                    <input type="text" id="form-surname" name="form-surname" placeholder="Enter your surname">
-                                </div>
-                                <div class="col-md-12">
-                                    <label>Phone</label>
-                                    <input type="text" id="form-phone" name="form-phone" placeholder="Enter your phone number">
+                                    <label>Telefono</label>
+                                    <input type="text" id="form-phone" name="form-phone" placeholder="Su telefono/celular">
                                 </div>
                                 <div class="col-md-12">
                                     <label>EMail</label>
-                                    <input type="text" id="form-email" name="form-email" placeholder="Enter your email">
+                                    <input type="text" id="form-email" name="form-email" placeholder="Su email">
                                 </div>
                                 <div class="col-md-12">
-                                    <label>Message</label>
-                                    <textarea cols="6" rows="8" id="form-message" name="form-message" placeholder="Enter your message"></textarea>
+                                    <label>Mensaje</label>
+                                    <textarea cols="6" rows="8" id="form-message" name="form-message" placeholder="Escriba su mensaje"></textarea>
                                 </div>
                                 <div class="col-md-12">
-                                    <input type="submit" value="SEND MESSAGE" class="btn btn-red">
+                                    <input type="submit" value="ENVIAR" class="btn btn-red">
                                 </div>
                             </div>
                         </form>
@@ -91,10 +91,10 @@ bannercaption: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
                     <div class="mobile-space"></div>
                 </div>
                 <div class="col-md-8 col-sm-6">
-                    <h3 class="font-w700 margin-b40">LOCATION</h3>
+                    <h3 class="font-w700 margin-b40">UBICACION</h3>
                     <div class="google-map"></div>
                     <hr class="margin-v60">
-                    <h3 class="font-w700 margin-b20">FOLLOW US</h3>
+                    <h3 class="font-w700 margin-b20">SIGANOS</h3>
                     <ul class="social-icons social-round social-hovered clearfix">
                         <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
