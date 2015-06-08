@@ -65,7 +65,7 @@ published: true
                 <div class="col-md-4 col-sm-6">
                     <h3 class="font-w700 margin-b40">CONTACTENOS</h3>
                     <div class="data-form">
-                        <form action="http://formspree.io/info@solucionesweb.ml" id="contact-form" method="post">
+                        <form id="contact-form" method="post">
                             <div class="row">
                                 <div class="col-md-12">
                                     <label>Nombre</label>
@@ -77,14 +77,21 @@ published: true
                                 </div>
                                 <div class="col-md-12">
                                     <label>EMail</label>
-                                    <input type="text" id="form-email" name="form-email" placeholder="Su email">
+                                    <input type="text" id="_replyto" name="form-email" placeholder="Su email">
                                 </div>
                                 <div class="col-md-12">
                                     <label>Mensaje</label>
                                     <textarea cols="6" rows="8" id="form-message" name="form-message" placeholder="Escriba su mensaje"></textarea>
                                 </div>
+                                	<input type="hidden" name="_next" value="//www.solucionesweb.ml/gracias/" />
+                                	<input type="hidden" name="_subject" value="Contacto SolucionesWeb" />
+                                	<input type="text" name="_gotcha" style="display:none" />
                                 <div class="col-md-12">
                                     <input type="submit" value="ENVIAR" class="btn btn-red">
+                                    <script>
+    var contactform =  document.getElementById('contact-form');
+    contactform.setAttribute('action', '//formspree.io/' + 'info' + '@' + 'solucionesweb' + '.' + 'ml');
+</script>
                                 </div>
                             </div>
                         </form>
