@@ -1,25 +1,26 @@
+site:
   # Blog Information
-title:        "SolucionesWeb"
-description:     "Empresa especializada en el diseño de Paginas Web, aplicaciones Web, promocion Web y mercadeo por Internet. 100% Garantia de exito en su proyecto Web"
-keywords:		"Diseño web en Armenia, paginas web Quindio, diseño de paginas web en eje cafetero, aplicaciones web armenia, desarrollo de software Web, aplicaciones moviles armenia, sitios web, empresa paginas web, aplicaciones para iphone ipad android, armenia, quindio, colombia"
-author:	"SolucionesWeb"
-cover_image:  blog-cover.jpg
-logo:         logo.png
+  name:        "SolucionesWeb"
+  description:     "Empresa especializada en el diseño de Paginas Web, aplicaciones Web, promocion Web y mercadeo por Internet. 100% Garantia de exito en su proyecto Web"
+  keywords:		"Diseño web en Armenia, paginas web Quindio, diseño de paginas web en eje cafetero, aplicaciones web armenia, desarrollo de software Web, aplicaciones moviles armenia, sitios web, empresa paginas web, aplicaciones para iphone ipad android, armenia, quindio, colombia"
+  author:	"SolucionesWeb"
+  cover_image:  blog-cover.jpg
+  logo:         logo.png
   
   # Company information
-company:      Incorporated
-url:          http://sendtoinc.com/
-facebook:     SolucionesWebCO
-twitter:      SolucionesWebCO
-gplus:        '101183822199340201470'
-about_link:   https://sendtoinc.com/about/
+  company:      Incorporated
+  url:          http://sendtoinc.com/
+  facebook:     SolucionesWebCO
+  twitter:      SolucionesWebCO
+  gplus:        '101183822199340201470'
+  about_link:   https://sendtoinc.com/about/
   
   # Product Information
-product_link: http://incorporated.sendtoinc.com/
-tagline:      "Get a modern blog for your company"
+  product_link: http://incorporated.sendtoinc.com/
+  tagline:      "Get a modern blog for your company"
   
   # Comments
-disqus:
+  disqus:
     # Eg. "exampleblog" Set to false to disable comments
     shortname:  false
   
