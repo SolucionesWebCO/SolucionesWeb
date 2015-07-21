@@ -10,8 +10,8 @@ inc:
   # Company information
   company:      Incorporated
   url:          http://sendtoinc.com/
-  facebook:     sendtoinc
-  twitter:      sendtoinc
+  facebook:     SolucionesWebCO
+  twitter:      SolucionesWebCO
   gplus:        '101183822199340201470'
   about_link:   https://sendtoinc.com/about/
   
@@ -43,7 +43,7 @@ inc:
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://incorporated.sendtoinc.com
+url:         http://solucionesweb.ml
 source:      .
 destination: ./_site
 plugins:     ./_plugins
