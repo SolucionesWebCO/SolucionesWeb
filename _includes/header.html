@@ -16,7 +16,7 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=1" />
     
-	<title>{{ page.title }}{% if page.layout == 'default' %} - {{ site.name }}{% endif %}</title>
+	<title>{% if page.title %} {{ page.title }} | {% endif %} SolucionesWeb {% if page.url == "/index.html" %} - Empresa Desarrollo Software Web - Aplicaciones Web a la medida - Empresa de Paginas Web {% endif %}</title>
 	<meta name="description" content="{% if page.layout == 'default' %}{{ site.description }}{% else %}{% if page.cover %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}{% endif %}">
 	<meta name="author" content="{{ site.author }}">
 	<meta name="keywords" content="{{ site.keywords }}">
