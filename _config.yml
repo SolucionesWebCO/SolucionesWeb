@@ -77,6 +77,9 @@ port:        4000
 baseurl:     /
 lsi:         false
 
+gems:
+  - jekyll-sitemap
+  
 maruku:
   use_tex:    false
   use_divs:   false
