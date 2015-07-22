@@ -461,22 +461,22 @@ layout: default
                             <div class="g lg-two-twelfths">
                                 <aside>
                                     <span class="icon-phone"></span>
-                                    <small>+0123 4567 890</small>
+                                    <small>{{ site.phone }}</small>
                                 </aside>
                             </div>
                             <div class="g lg-one-twelfth">&nbsp;</div>
                             <div class="g lg-two-twelfths">
                                 <aside>
                                     <span class="icon-envelope"></span>
-                                    <small><a href="mailto:joe@example.com?subject=feedback">hello@matrex.com</a></small>
+                                    <small><a href="mailto:{{ site.email }}?subject=feedback">{{ site.email }}</a></small>
                                 </aside>
                             </div>
                             <div class="g lg-one-twelfth">&nbsp;</div>
                             <div class="g lg-two-twelfths">
                                 <aside>
                                     <span class="icon-map-pin"></span>
-                                    <small>300 Collins St.</small>
-                                    <small>Suite 2A Melbourne, 3000</small>
+                                    <small>{{ site.address }}</small>
+                                    <small>{{ site.city }}</small>
                                 </aside>
                             </div>
                         </div>
