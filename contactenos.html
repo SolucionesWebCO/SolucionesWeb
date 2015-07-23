@@ -1,0 +1,131 @@
+---
+layout: default
+title: Contactenos
+---
+    <body>
+
+        <!-- Page Loader -->      
+        <div id="loader-wrapper">
+            <div class="spinner"></div>
+        </div>
+        <!-- End Page Loader -->
+
+        <div id="wrapper">
+            <header id="main" data-color="#4CAF50" >
+                <div class="container align-vertical">
+                    <h1 >Say Hi!</h1>
+                    <p>
+                        From digital platforms to brand identities, we work with you, collaboratively, to make things that help your organisation do great work.
+                    </p>
+                </div>
+            </header>
+            <!-- end header -->
+
+            <article id="content">
+            
+			<!-- navigation -->
+			{% include nav.html %}
+			<!-- navigation -->
+            
+			<!-- main header -->
+                <section class="block title text-left">
+                    <div class="container">
+                        <aside>
+                            <div class="g md-one-whole">
+                                <h1>Get in Touch</h1>
+                                <p>We approach our projects with strategic and creative thinking. We partner with our clients to creats and digital experiences. And we spend each day doing so by sharpening the tools of the digital trade.</p>
+                            </div>
+                        </aside>
+                    </div>
+                </section>
+
+                <section id="wrapper-contact">
+                    <div class="container">
+                        <div class="gw">
+                        <div class="g lg-four-twelfths">
+                            <!-- Google Map -->
+                                <section>
+                                    <!-- Google Map ID -->
+                                    <div id="map"></div>
+                                </section>
+                                <!-- End Google Map -->
+                        </div>
+             
+                        <aside class="g lg-five-twelfths form-section">
+                            <section>
+                                <h2>Get in <strong>touch</strong></h2>
+                                <p>Contact <span>Our Company</span></p>
+                                <p>Contact us for any further questions, possible projects.and business partnerships</p>
+
+                                 <aside class="lg-one-whole">
+                                    <form method="POST" name="contact" id="ajax-contact" >
+                                        <input type="text" name="name" id="fullname"  placeholder="username" class="detail" />
+                                        <input type="text" name="email" id="email"  placeholder="Your Email" class="detail" /> 
+                                        <textarea name="message" id="comments" cols="30" rows="10" class="message" placeholder="Your message" ></textarea>
+                                        <input type="submit" name="" value="Send">
+                                    </form>
+                                </aside>
+                            </section> 
+                        </aside>
+
+                    <article id="contact-details">
+                        <div class="g lg-three-twelfths ">
+                            <aside class="box block color">
+                               <h4>Contact Us</h4>
+                               <h1>Let's have a chat!</h1>
+                               <p>Telephone: 708 783 1124</p>
+                               <p>fax: 708 653 0640</p>
+                               <a href="mailto:joe@example.com?subject=feedback">hello@yoursite.com</a>
+                            </aside>
+
+                            <aside class="box block">
+                               <h2 data-color="#b39ddb">Visit our location</h2>
+                               <p>17 Princess Road, London Greater London, NW1 8JR, UK</p>
+                            </aside>
+
+                            <aside class="box block">
+                               <h2 data-color="#29b6f6">Looking for a career?</h2>
+                               <p>Commodo ad sint hashtag,voluptate consequat vero veniam.</p>
+                            </aside>
+                        </div>
+                    </article><!-- contact-details -->
+                        </div>
+                    </div>
+                </section>
+				
+				<!-- set form validation -->
+        <script>
+            jQuery(document).ready(function($) {
+                $("#ajax-contact").validate({
+                    rules:{
+                        name: {
+                            required : true,
+                            minlength:2
+                        },
+                        email: {
+                            required: true,
+                            email: true
+                        },
+                        message: {
+                            required: true,
+                            minlength: 20
+                        }
+                    },
+                    messages:{
+                        name: {
+                            required:"Please enter a correct name",
+                            minlength:"Your bane seens a bit doesn't it?"
+                        },
+                        email: {
+                            required:"please enter your email address",
+                            email:"please enter a valid email address"
+                        },
+                        message:{
+                            required:"please enter your message",
+                            minlength:"Your message seems a bit short dosn't it? please enter at least 50 characters"
+                        }
+                    }
+                });
+            });
+
+        </script>
