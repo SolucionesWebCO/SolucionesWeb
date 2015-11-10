@@ -613,7 +613,7 @@ a.toggle-nav span {
 }
 .toggle-nav h4 {
 	color: #0e1832;
-	font-size: 20px;
+	font-size: 15px;
 	letter-spacing: .1em;
 	text-align: center;
 	position: relative;
@@ -1060,7 +1060,7 @@ ul.site-social a.dribble:hover {
 	width: 100%;
 	display: block;
 	position: absolute;
-	background-image: url('images/header-photo1.jpg') !important;
+	background-image: url('../images/header-photo1.jpg') !important;
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	-ms-background-size: cover !important;
@@ -1626,7 +1626,7 @@ ul.site-social a.dribble:hover {
 	background: rgba(255, 69, 95, 0.90);*/
 }
 #footer-work-with-us .wrap:before {
-	background-image: url('images/footer-photo1.jpg');
+	background-image: url('../images/footer-photo1.jpg');
 	background-position: 50% 0;
 	background-repeat: no-repeat;
 	-ms-background-size: cover;
