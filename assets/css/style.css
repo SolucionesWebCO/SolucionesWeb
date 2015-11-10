@@ -37,7 +37,7 @@ html {
 }
 body {
 	text-rendering: optimizelegibility;
-	font-family: 'Whitney SSm A', 'Whitney SSm B';
+	font-family: 'Open Sans', sans-serif;
 	background: #fff;
 	padding-left: 0;
 	-webkit-font-smoothing: antialiased;
@@ -106,13 +106,13 @@ h3, .h3 {
 	letter-spacing: 0em;
 }
 h4, .h4 {
-	font-family: 'Gotham SSm A', 'Gotham SSm B';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	color: #0e1832;
 	text-transform: uppercase;
 	letter-spacing: 0.56em;
 	font-weight: 500;
-	font-family: 'Gotham SSm A', 'Gotham SSm B';
+	font-family: 'Open Sans', sans-serif;
 	line-height: 100%;
 }
 ::selection {
@@ -178,7 +178,7 @@ hr {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.34em;
-    font-family: 'Gotham SSm A', 'Gotham SSm B';
+    font-family: 'Open Sans', sans-serif;
 }
 .btn-teal-hollow {
 	background: transparent;
@@ -1741,7 +1741,7 @@ body.page-id-12 #footer-work-with-us .wrap:before {
 	color: #486883;
 	font-size: 14px;
 	letter-spacing: 0.56em;
-	font-family: 'Gotham SSm A', 'Gotham SSm B';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 }
 #topper h1 {
@@ -1782,7 +1782,7 @@ body.page-id-12 #footer-work-with-us .wrap:before {
 	color: #486883;
 	font-size: 14px;
 	letter-spacing: 0.56em;
-	font-family: 'Gotham SSm A', 'Gotham SSm B';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 }
 #short-topper p {
@@ -1825,7 +1825,7 @@ article {
 	color: #486883;
 	font-size: 12px;
 	letter-spacing: 0.56em;
-	font-family: 'Gotham SSm A', 'Gotham SSm B';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	display: inline;
 	line-height: 100%;
@@ -2018,7 +2018,7 @@ img.iphone {
 	font-size: 24px;
 }
 .single-block blockquote footer span.title {
-	font-family: 'Gotham SSm A', 'Gotham SSm B';
+	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	color: #486883;
 	letter-spacing: 0.16em;
@@ -2177,7 +2177,7 @@ img.iphone {
 	font-size: 12px;
 	letter-spacing: 0.3em;
 	text-transform: uppercase;
-	font-family: 'Gotham SSm A', 'Gotham SSm B';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	padding-bottom: 5px;
 	-webkit-transform: translateZ(0);
@@ -2232,7 +2232,7 @@ img.iphone {
 	font-size: 12px;
 	text-transform: uppercase;
 	letter-spacing: 0.12em;
-	font-family: 'Gotham SSm A', 'Gotham SSm B';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	position: relative;
 	margin: 0 25px;
@@ -2473,7 +2473,7 @@ img.iphone {
 	text-transform: uppercase;
 	letter-spacing: 0.34em;
 	font-size: 12px;
-	font-family: 'Gotham SSm A', 'Gotham SSm B';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	margin-bottom: 37px;
 	width: 209px;
@@ -2542,7 +2542,7 @@ img.iphone {
 	text-transform: uppercase;
 	letter-spacing: 0.56em;
 	font-weight: 500;
-	font-family: 'Gotham SSm A', 'Gotham SSm B';
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	line-height: 100%;
 }
@@ -2744,7 +2744,7 @@ img.iphone {
 	font-size: 24px;
 }
 #testimonials blockquote footer span.title {
-	font-family: 'Gotham SSm A', 'Gotham SSm B';
+	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	color: #486883;
 	letter-spacing: 0.16em;
@@ -2774,7 +2774,7 @@ img.iphone {
 	color: #8894a3;
 	letter-spacing: 0.16em;
 	text-transform: uppercase;
-	font-family: 'Gotham SSm A', 'Gotham SSm B';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 }
 .page-template-page-what-we-do-php .triangle-down {
@@ -3058,7 +3058,7 @@ img.iphone {
 	line-height: 34px;
 	letter-spacing: -.02em;
 	margin: 0 0 10px;
-	font-family: 'Whitney SSm A', 'Whitney SSm B';
+	font-family: 'Open Sans', sans-serif;
 	text-transform: none;
 }
 #jobs .row {
@@ -3173,7 +3173,7 @@ article h4 {
 	text-transform: uppercase;
 	letter-spacing: 0.34em;
 	font-size: 12px;
-	font-family: 'Gotham SSm A', 'Gotham SSm B';
+	font-family: 'Open Sans', sans-serif;
 }
 #site-footer .feeds p.meta a {
 	color: #486883;
@@ -3282,7 +3282,7 @@ article h4 {
 #footer-reveal .links a {
 	color: #0e1832;
 	letter-spacing: 0.16em;
-	font-family: 'Gotham SSm A', 'Gotham SSm B';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 12px;
 	text-transform: uppercase;
