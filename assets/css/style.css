@@ -80,9 +80,9 @@ ul, ol {
 	margin-bottom: 20px;
 }
 h1, .h1 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 100px;
-	font-weight: 400;
+	font-weight: 700;
 	color: #0e1832;
 	line-height: 90px;
 	text-transform: uppercase;
@@ -619,7 +619,7 @@ a.toggle-nav span {
 	position: relative;
 	top: 16px;
 	width: 100%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	opacity:1;
 	-webkit-transform: translateZ(0);
 	-moz-transform: translateZ(0);
