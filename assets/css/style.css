@@ -835,7 +835,7 @@ ul.site-social a.dribble:hover {
 	font-size: 100px;
 	line-height: 135px;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	/*margin: 0 0 0 190px;*/
 	display: block;
 	-webkit-transition: all 400ms cubic-bezier(.17,.67,.38,1.46);
