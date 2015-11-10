@@ -1059,7 +1059,7 @@ ul.site-social a.dribble:hover {
 	width: 100%;
 	display: block;
 	position: absolute;
-	background-image: url('/wp-content/themes/wideeyecreative/images/footer-photo1.jpg') !important;
+	background-image: url('assets/images/header-photo1.jpg') !important;
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	-ms-background-size: cover !important;
