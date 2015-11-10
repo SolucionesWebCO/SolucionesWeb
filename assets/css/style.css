@@ -52,7 +52,7 @@ section, header, footer, main, article, nav, aside {
 	position: relative;
 }
 a {
-	color: #ff455f;
+	color: #E80E00;
 	outline: none !important;
 	text-decoration: none !important;
     -webkit-transition: all 225ms ease;
@@ -117,11 +117,11 @@ h4, .h4 {
 	line-height: 100%;
 }
 ::selection {
-	background: #ff455f;
+	background: #E80E00;
 	color: #fff;
 }
 ::-moz-selection {
-	background: #ff455f;
+	background: #E80E00;
 	color: #fff;
 }
 /*::placeholder {
@@ -143,7 +143,7 @@ h4, .h4 {
    color: #486883;
 }*/
 hr {
-	border-top: solid 4px #ff455f;
+	border-top: solid 4px #E80E00;
 }
 .lead {
 	font-weight: 400;
@@ -213,8 +213,8 @@ hr {
 }
 .btn-red-hollow {
 	background: transparent;
-	border: solid 2px #ff455f;
-	color: #ff455f;
+	border: solid 2px #E80E00;
+	color: #E80E00;
 }
 .btn-red-hollow:hover, .btn-red-hollow:focus {
 	background: #ff5970;
@@ -228,10 +228,10 @@ hr {
 }
 .btn-white {
 	background: #fff;
-	color: #ff455f;
+	color: #E80E00;
 }
 .btn-white:hover, .btn-white:focus {
-	background: #ff455f;
+	background: #E80E00;
 	color: #fff;
 }
 .btn-white:active {
@@ -286,7 +286,7 @@ p.lead {
 	padding: 0;
 	font-size: 11px;
 	background: #fff !important;
-	color: #ff455f !important;
+	color: #E80E00 !important;
 	border: none !important;
 	display:none;
 }
@@ -297,7 +297,7 @@ p.lead {
 	display: block;
 }
 .get-in-touch span.button-panel {
-	background: #ff455f !important;
+	background: #E80E00 !important;
 	color: #fff !important;
 }
 .fade-up {
@@ -638,11 +638,11 @@ a.toggle-nav span {
     transition: all 225ms ease;
 }
 a.toggle-nav:hover h4, a.toggle-nav:hover h4:before, a.toggle-nav:hover h4:after {
-	color: #ff455f !important;
+	color: #E80E00 !important;
 	opacity:1;
 }
 a.toggle-nav.is-hovered h4, a.toggle-nav.is-hovered h4:before, a.toggle-nav.is-hovered h4:after {
-	color: #ff455f !important;
+	color: #E80E00 !important;
 	opacity:1;
 }
 body.show-nav a.toggle-nav h4 {
@@ -680,10 +680,10 @@ a.toggle-nav span:after {
 	bottom: -8px;
 }
 a.toggle-nav:hover span, a.toggle-nav:hover span:before, a.toggle-nav:hover span:after {
-	background: #ff455f !important;
+	background: #E80E00 !important;
 }
 a.toggle-nav.is-hovered span, a.toggle-nav.is-hovered span:before, a.toggle-nav.is-hovered span:after {
-	background: #ff455f !important;
+	background: #E80E00 !important;
 }
  a.toggle-nav:hover span, a.toggle-nav.is-hovered span {
 	-o-transform: translate3d(0, 0, 0) rotate(0) scale(1);
@@ -888,7 +888,7 @@ ul.site-social a.dribble:hover {
 	opacity: 1;
 }
 #site-navigation ul li a:hover {
-	color: #ff455f;
+	color: #E80E00;
 }
 
 
@@ -978,7 +978,7 @@ ul.site-social a.dribble:hover {
 	margin: 0 0 44px;
 }
 #call-to-action h1 a {
-	color: #ff455f;
+	color: #E80E00;
 }
 #call-to-action h1 mark {
 	background: none;
@@ -986,10 +986,10 @@ ul.site-social a.dribble:hover {
 	padding: 0;
 }
 #call-to-action h1 mark span {
-	color: #ff455f;
+	color: #E80E00;
 }
 #call-to-action h1 mark a {
-	color: #ff455f;
+	color: #E80E00;
 	position: absolute;
 	right: -7px;
 	font-size: 20px;
@@ -1016,7 +1016,7 @@ ul.site-social a.dribble:hover {
 	color: #fff !important;
 }
 #call-to-action a.see-more.btn-white-hollow span.button-panel {
-	color: #ff455f !important;
+	color: #E80E00 !important;
 	background: #fff !important;
 }
 #call-to-action li.slide.project h1, #call-to-action li.slide.project h4, #call-to-action li.slide.project p {
@@ -1134,7 +1134,7 @@ ul.site-social a.dribble:hover {
 	width: 142px;
 }
 #home-about .thing-we-do span {
-	color: #ff455f;
+	color: #E80E00;
 	font-size: 60px;
 }
 #home-about .thing-we-do.branding span {font-size:64px;position:relative;top:2px;}
@@ -1339,7 +1339,7 @@ ul.site-social a.dribble:hover {
 	line-height: 24px;
 }
 .grid-cover a:hover {
-	/*background: #ff455f;
+	/*background: #E80E00;
 	background: rgba(255, 69, 95, 0.90);*/
 	background:#0e1832;
 	background: rgba(14, 24, 50, 0.85);
@@ -1407,7 +1407,7 @@ ul.site-social a.dribble:hover {
 	font-size: 12px;
 	width: 450px;
 	background: transparent !important;
-	color: #ff455f !important;
+	color: #E80E00 !important;
 }
 #home-see-more a span {
 	width: 100%;
@@ -1416,7 +1416,7 @@ ul.site-social a.dribble:hover {
 	display: block;
 }
 #home-see-more a span.button-panel {
-	background: #ff455f !important;
+	background: #E80E00 !important;
 	color: #fff !important;
 }
 
@@ -1482,7 +1482,7 @@ ul.site-social a.dribble:hover {
 	margin-bottom: 50px;
 }
 #home-work-with .thing-we-do span {
-	color: #ff455f;
+	color: #E80E00;
 	display: block;
 	height: 65px;
 	line-height: 65px;
@@ -1590,7 +1590,7 @@ ul.site-social a.dribble:hover {
 	font-size: 12px;
 	max-width: 465px;
 	background: none !important;
-	color: #ff455f !important;
+	color: #E80E00 !important;
 }
 #awesomeness a.btn i {
 	font-style: normal;
@@ -1603,7 +1603,7 @@ ul.site-social a.dribble:hover {
 #awesomeness a.btn span.button-panel {
 	width: 100%;
 	color: #fff !important;
-	background: #ff455f !important;
+	background: #E80E00 !important;
 }
 
 
@@ -1622,7 +1622,7 @@ ul.site-social a.dribble:hover {
 
 
 
-	/*background: #ff455f;
+	/*background: #E80E00;
 	background: rgba(255, 69, 95, 0.90);*/
 }
 #footer-work-with-us .wrap:before {
@@ -1692,7 +1692,7 @@ body.page-id-12 #footer-work-with-us .wrap:before {
 	font-weight: 400;
 }
 #footer-work-with-us h2 span {
-	color: #ff455f;
+	color: #E80E00;
 }
 #footer-work-with-us div.btn {
 	padding: 0;
@@ -1714,7 +1714,7 @@ body.page-id-12 #footer-work-with-us .wrap:before {
 }
 #footer-work-with-us div.btn span.button-panel {
 	background: #fff !important;
-	color: #ff455f !important;
+	color: #E80E00 !important;
 }
 
 
@@ -2149,7 +2149,7 @@ img.iphone {
 	padding-top: 137px;
 }
 #project-navigation .grid a:hover {
-	background: #ff455f;
+	background: #E80E00;
 }
 #project-navigation .grid a:hover span {
 	background: #fff;
@@ -2239,7 +2239,7 @@ img.iphone {
 	margin: 0 25px;
 }
 #share-block a:hover {
-	color: #ff455f;
+	color: #E80E00;
 }
 #share-block a i {
 	font-size: 25px;
@@ -2264,7 +2264,7 @@ img.iphone {
 	height: 360px;
 }
 #project-navigation .huge-next a:hover {
-	background: #ff455f;
+	background: #E80E00;
 }
 #project-navigation .huge-next a:hover h3, #project-navigation .huge-next a:hover span, #project-navigation .huge-next a:hover i {
 	color: #fff;
@@ -2308,10 +2308,10 @@ img.iphone {
 	margin-left: 30px;
 	font-size: 91px;
 	top: -13px;
-	color: #ff455f;
+	color: #E80E00;
 }
 .triangle-down.is-hovered {
-	background: #ff455f;
+	background: #E80E00;
 	margin-top: -30px;
 }
 
@@ -2470,7 +2470,7 @@ img.iphone {
 	bottom: 0;
 	left: 50%;
 	width: 100%;
-	color: #ff455f;
+	color: #E80E00;
 	text-transform: uppercase;
 	letter-spacing: 0.34em;
 	font-size: 12px;
@@ -2488,7 +2488,7 @@ img.iphone {
     transition: all 225ms ease;
 }
 #things-we-do a:hover {
-	background: #ff455f;
+	background: #E80E00;
 }
 #things-we-do a .see-more:before, #things-we-do a .see-more:after {
 	position: absolute;
@@ -2497,7 +2497,7 @@ img.iphone {
 	display: block;
 	width: 59px;
 	height: 2px;
-	background: #ff455f;
+	background: #E80E00;
     -webkit-transition: all 225ms ease;
     -moz-transition: all 225ms ease;
     transition: all 225ms ease;
@@ -2577,7 +2577,7 @@ img.iphone {
 	transform: scale(0.82);
 	height: 47px;
 	line-height: 47px;
-	color: #ff455f;
+	color: #E80E00;
 }
 #all-we-do .thing-we-do h3 {
 	color: #0e1832;
@@ -2791,7 +2791,7 @@ img.iphone {
 }
 #testimonials .bx-wrapper .bx-controls-direction a {
 	text-indent: 0;
-	color: #ff455f;
+	color: #E80E00;
 	height: 50px;
 	width: 50px;
 	line-height: 50px;
@@ -2859,16 +2859,16 @@ img.iphone {
 	border-color: #486883 !important;
 }
 #contact form .error {
-	border-color: #ff455f !important;
+	border-color: #E80E00 !important;
 }
 #contact button {
 	padding: 0;
 	width: 100%;
-	border-color: #ff455f !important;
+	border-color: #E80E00 !important;
 	background: none !important;
 }
 #contact button:hover, #contact button:active {
-	background: #ff455f !important;
+	background: #E80E00 !important;
 }
 #contact button:hover .text, #contact button:active .text {
 	color:#fff !important;
@@ -2882,7 +2882,7 @@ img.iphone {
 	font-size: 15px;
 	display: block;
 	background: transparent !important;
-	color: #ff455f !important;
+	color: #E80E00 !important;
     -webkit-transition: all 225ms ease;
     -moz-transition: all 225ms ease;
     transition: all 225ms ease;
@@ -2984,7 +2984,7 @@ img.iphone {
 	left: calc(50% - 6px);
 
 	border-radius: 12px;
-	background-color: #ff455f;
+	background-color: #E80E00;
 	-webkit-transform-origin:  50% 50%;
 			transform-origin:  50% 50% ;
 	-webkit-animation: loader6 600ms ease-in-out infinite;
@@ -3030,7 +3030,7 @@ img.iphone {
 	animation-duration: 1s;
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
-	border: 2px solid #ff455f;
+	border: 2px solid #E80E00;
 }
 
 
@@ -3044,7 +3044,7 @@ img.iphone {
 }
 /*
 #jobs h2 {
-	color: #ff455f;
+	color: #E80E00;
 	font-size: 18px;
 	line-height: 24px;
 	letter-spacing: 0.34em;
@@ -3054,7 +3054,7 @@ img.iphone {
 	margin: 0 0 20px;
 }*/
 #jobs h2 {
-	color: #ff455f;
+	color: #E80E00;
 	font-size: 32px;
 	line-height: 34px;
 	letter-spacing: -.02em;
@@ -3109,7 +3109,7 @@ article h4 {
 =            404            =
 ============================*/
 .error404 #topper.light-text h1 {
-	color: #ff455f;
+	color: #E80E00;
 	font-size: 300px;
 	margin-bottom: 115px;
 }
@@ -3163,7 +3163,7 @@ article h4 {
 	font-weight: 400;
 }
 #site-footer .feeds p.description a {
-	color: #ff455f;
+	color: #E80E00;
 }
 #site-footer .feeds p.description a:hover {
 	color: #ff667b;
@@ -4707,22 +4707,22 @@ a::-moz-focus-inner {
   border: 0 !important;
 }
 html#ie9 a.toggle-nav h4, html#ie9 a.toggle-nav h4:before, html#ie9 a.toggle-nav h4:after {
-	color: #ff455f !important;
+	color: #E80E00 !important;
 	opacity:1;
 }
 html#ie9 a.toggle-nav span, html#ie9 a.toggle-nav span:before, html#ie9 a.toggle-nav span:after {
-	background: #ff455f !important;
+	background: #E80E00 !important;
 }
 html#ie9 #things-we-do {
 	display: none !important;
 }
 
 html.ie-old a.toggle-nav h4, html.ie-old a.toggle-nav h4:before, html.ie-old a.toggle-nav h4:after {
-	color: #ff455f !important;
+	color: #E80E00 !important;
 	opacity:1;
 }
 html.ie-old a.toggle-nav span, html.ie-old a.toggle-nav span:before, html.ie-old a.toggle-nav span:after {
-	background: #ff455f !important;
+	background: #E80E00 !important;
 }
 html.ie-old #things-we-do {
 	display: none !important;
