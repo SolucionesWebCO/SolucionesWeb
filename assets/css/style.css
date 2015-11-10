@@ -1655,16 +1655,16 @@ ul.site-social a.dribble:hover {
 
 }
 #footer-work-with-us .wrap.alternate:before {
-	background-image: url('images/footer-photo2.jpg');
+	background-image: url('../images/footer-photo2.jpg');
 }
 body.home #footer-work-with-us .wrap:before {
-	background-image: url('images/footer-photo5.jpg');
+	background-image: url('../images/footer-photo5.jpg');
 }
 body.page-id-177 #footer-work-with-us .wrap:before {
-	background-image: url('images/footer-photo3.jpg');
+	background-image: url('../images/footer-photo3.jpg');
 }
 body.page-id-12 #footer-work-with-us .wrap:before {
-	background-image: url('images/footer-photo4.jpg');
+	background-image: url('../images/footer-photo4.jpg');
 }
 
 #footer-work-with-us a {
