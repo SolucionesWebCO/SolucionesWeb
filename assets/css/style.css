@@ -27,7 +27,7 @@ Version: 1.0
  *	Sizes:
  */
 
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 
 /*================================
 =            BASE CSS            =
@@ -79,7 +79,7 @@ ul, ol {
 	margin-bottom: 20px;
 }
 h1, .h1 {
-	font-family: 'Gotham Cond SSm A', 'Gotham Cond SSm B';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 100px;
 	font-weight: 400;
 	color: #0e1832;
@@ -88,7 +88,7 @@ h1, .h1 {
 	letter-spacing: 0em;
 }
 h2, .h2 {
-	font-family: 'Gotham Cond SSm A', 'Gotham Cond SSm B';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 65px;
 	line-height: 55px;
 	font-weight: 200;
@@ -97,7 +97,7 @@ h2, .h2 {
 	letter-spacing: 0em;
 }
 h3, .h3 {
-	font-family: 'Gotham Cond SSm A', 'Gotham Cond SSm B';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 37px;
 	line-height: 37px;
 	font-weight: 200;
@@ -618,7 +618,7 @@ a.toggle-nav span {
 	position: relative;
 	top: 16px;
 	width: 100%;
-	font-family: 'Gotham Cond SSm A', 'Gotham Cond SSm B';
+	font-family: 'Open Sans', sans-serif;
 	opacity:1;
 	-webkit-transform: translateZ(0);
 	-moz-transform: translateZ(0);
@@ -834,7 +834,7 @@ ul.site-social a.dribble:hover {
 	font-size: 100px;
 	line-height: 135px;
 	font-weight: 400;
-	font-family: 'Gotham Cond SSm A', 'Gotham Cond SSm B';
+	font-family: 'Open Sans', sans-serif;
 	/*margin: 0 0 0 190px;*/
 	display: block;
 	-webkit-transition: all 400ms cubic-bezier(.17,.67,.38,1.46);
@@ -1316,7 +1316,7 @@ ul.site-social a.dribble:hover {
 	line-height: 68px;
 	text-transform: uppercase;
 	margin: 0;
-	font-family: 'Gotham Cond SSm A', 'Gotham Cond SSm B';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	padding-bottom: 20px;
 }
@@ -1749,7 +1749,7 @@ body.page-id-12 #footer-work-with-us .wrap:before {
 	font-size: 80px;
 	color: #0e1832;
 	line-height: 80px;
-	font-family: 'Gotham Cond SSm A', 'Gotham Cond SSm B';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 }
 #topper p {
@@ -2581,7 +2581,7 @@ img.iphone {
 #all-we-do .thing-we-do h3 {
 	color: #0e1832;
 	font-size: 36px;
-	font-family: 'Gotham Cond SSm A', 'Gotham Cond SSm B';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	margin: 5px 0 20px;
 }
@@ -2766,7 +2766,7 @@ img.iphone {
 	text-align: center;
 	color: #fff;
 	font-weight: 300;
-	font-family: 'Gotham Cond SSm A', 'Gotham Cond SSm B';
+	font-family: 'Open Sans', sans-serif;
 }
 #counts figure figcaption {
 	font-size: 13px;
