@@ -98,10 +98,10 @@ h2, .h2 {
 	letter-spacing: 0em;
 }
 h3, .h3 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 37px;
 	line-height: 37px;
-	font-weight: 200;
+	font-weight: 700;
 	color: #0e1832;
 	text-transform: uppercase;
 	letter-spacing: 0em;
